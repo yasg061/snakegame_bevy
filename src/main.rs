@@ -274,7 +274,7 @@ fn main() {
     App::new()
         .insert_resource(ClearColor(Color::rgb(0.04, 0.04, 0.04)))
         .insert_resource(WindowDescriptor {
-            title: "SnakeGame!".to_string(),
+            title: " Snake Game using Bevy Engine!".to_string(),
             width: 500.0,
             height: 500.0,
             ..Default::default()
